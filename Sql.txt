@@ -1,0 +1,12 @@
+create table [dbo].[Employees] (
+	[id] [int] identity(1,1) not null,
+	[name] [nvarchar](max) null,
+	[salary] [int] null,
+	[address] [nvarchar](max) null,
+	[phone] [nvarchar](max) null
+)
+
+insert into [dbo].[Employees]
+values ('Nguyen a', 74564, 'Ha Noi', '3456789')
+insert into [dbo].[Employees]
+values ('Nguyen B', 74564, 'Ha Noi', '3456789')
